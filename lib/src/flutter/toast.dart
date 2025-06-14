@@ -270,7 +270,7 @@ class _VxToastViewState extends State<_VxToastView>
     } else if (widget.toastPosition == VxToastPosition.center) {
       backResult = MediaQuery.sizeOf(context).height * 1 / 2;
     } else {
-      backResult = MediaQuery.sizeOf(context).height * 0.9;
+      backResult = (MediaQuery.sizeOf(context).height - MediaQuery.paddingOf(context).bottom) * 0.9;
     }
     return backResult;
   }

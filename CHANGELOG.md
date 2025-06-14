@@ -1,3 +1,6 @@
+## [4.3.2] - Jun 14, 2025
+- Fixed VxToast (bottom positioned) below nav bar in Android edge-to-edge mode
+
 ## [4.3.1] - Feb 23, 2025
 - Fixed enableFeedback bug with VxUniversal
 
